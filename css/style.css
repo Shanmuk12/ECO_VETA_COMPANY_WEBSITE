@@ -23,7 +23,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #19b833;
+    color: #002e5f;
     position: relative;
     letter-spacing: .2rem;
 }
@@ -85,7 +85,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #19b833;
+    background: #002e5f;
 }
 
 #contactNow {
