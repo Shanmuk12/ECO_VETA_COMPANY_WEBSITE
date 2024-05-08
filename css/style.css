@@ -423,7 +423,7 @@ body{
     transition: all 0.7 ease 0s;
 }
 .item:hover{
-    background-color: #002e5f;
+    background-color: #19b833;
     color: white;
 }
 .item:hover p {
@@ -636,11 +636,11 @@ body{
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #19b833;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+    border-color: #f0f0f0;
 }
 
 .team .row{
@@ -689,7 +689,7 @@ body{
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: #00bfff;
+    color: #002e5f;
 }
 
 .team .row .card .info .icons a{
@@ -732,7 +732,7 @@ body{
 }
 
 .team .row .card::before{
-    background: #00bfff;
+    background: #19b833;
     top: -3rem;
     right: -4rem;
 }
