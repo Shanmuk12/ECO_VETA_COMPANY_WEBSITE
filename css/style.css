@@ -276,89 +276,97 @@ body{
 }
 
 .item {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
     cursor: pointer;
-}
-
-.item{
-    background:#fff;
+    background: #fff;
     text-align: center;
-    padding:30px 25px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
     border-radius: 20px;
     margin-bottom: 30px;
     margin-top: -2rem;
-    border:5px solid rgba(0,0,0,0.07);
-    -webkit-transition:all 0.5s ease 0s;
-    transition:all 0.5s ease 0s;
+    border: 5px solid rgba(0, 0, 0, 0.07);
+    transition: all 0.25s ease;
 }
-.item:hover{
-    background:#c8d8e4;
-    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
-    -webkit-transition:all 0.5s ease 0s;
-    transition:all 0.5s ease 0s;
+
+.item:hover {
+    background: #c8d8e4;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 .item:hover .item,
-.item:hover span.icon{
-    background:#fff;
+.item:hover span.icon {
+    background: #fff;
     border-radius: 10px;
-    -webkit-transition:all 0.5s ease 0s;
-    transition:all 0.5s ease 0s;
 }
-.item h6{
+
+.item h6 {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    color: #2f2f2f;
 }
+
 .item p {
     font-family: 'Poppins', sans-serif;
-}
-.item:hover h6,
-.item:hover p{
-    color:#2b6777;
-    -webkit-transition:all 0.5s ease 0s;
-    transition:all 0.5s ease 0s;
-}
-.item .icon{
-    font-size:40px;
-    margin-bottom: 25px;
-    color:yellow;
-    width:90px;
-    height:90px;
-    line-height: 96px;
-    border-radius: 50px;
-}
-.item .feature_box_col_one{
-    background:rgba(247,198,5,0.2);
-    color:#52ab98;
-}
-.item .feature_box_col_two{
-    background: rgba(255, 77, 28, 0.15);
-    color:#52ab98;
-}
-.item .feature_box_col_three{
-    background:rgba(0,147,38,0.15);
-    color:#52ab98;
-}
-.item .feature_box_col_four{
-    background:rgba(0,108,255,0.15);
-    color:#52ab98;
-}
-.item .feature_box_col_five{
-    background:rgba(146,39,255,0.15);
-    color:#52ab98;
-}
-.item .feature_box_col_six{
-    background:rgba(23,39,246,0.15);
-    color:#52ab98;
-}
-.item p{
     font-size: 15px;
     line-height: 26px;
 }
-.item h6{
-    margin-bottom: 20px;
-    color:#2f2f2f;
+
+.item .icon {
+    font-size: 40px;
+    margin-top: auto; /* Move the icon to the bottom */
+    color: yellow;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.item .feature_box_col_one {
+    background: rgba(247, 198, 5, 0.2);
+    color: #52ab98;
+}
+
+.item .feature_box_col_two {
+    background: rgba(255, 77, 28, 0.15);
+    color: #52ab98;
+}
+
+.item .feature_box_col_three {
+    background: rgba(0, 147, 38, 0.15);
+    color: #52ab98;
+}
+
+.item .feature_box_col_four {
+    background: rgba(0, 108, 255, 0.15);
+    color: #52ab98;
+}
+
+.item .feature_box_col_five {
+    background: rgba(146, 39, 255, 0.15);
+    color: #52ab98;
+}
+
+.item .feature_box_col_six {
+    background: rgba(23, 39, 246, 0.15);
+    color: #52ab98;
+}
+
+.item:hover h6,
+.item:hover p {
+    color: #2b6777;
+}
+
+
+
 
 .counters {
     background-image: url(../images/img2.jpg);
@@ -420,7 +428,7 @@ body{
     margin-bottom: 30px;
     border: 1px solid rgba(0,0,0,0.07);
     -webkit-transition:all 0.7s ease 0s;
-    transition: all 0.7 ease 0s;
+    transition: all 0.7 ease 0s;;
 }
 .item:hover{
     background-color: #19b833;
@@ -882,7 +890,7 @@ body{
 }
 
 .footer .footer-top {
-    background: #002e5f;
+    background: #217a30;
     padding: 60px 0 30px 0;
 }
 
@@ -1372,4 +1380,27 @@ body{
     .faq .row .accordion-container{
         width: 100%;
     }
+}
+
+.with-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px; /* Add some padding to the content to make it visually appealing */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.img1{
+    background-image: url('../images/bathroom_design.jpg');
+}
+
+.img2{
+    background-image: url('../images/installation_design.jpg');
+}
+.img3{
+    background-image: url('../images/renovation_design.jpg');
+}
+
+.with-background:hover{
+    opacity: ;
 }

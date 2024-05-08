@@ -97,7 +97,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #002e5f;
+    color: #217a30;
     position: relative;
     letter-spacing: .2rem;
     margin: -2rem auto 2rem auto;
@@ -113,8 +113,8 @@ body{
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #002e5f;
-    border-left: .4rem solid #002e5f;
+    border-top: .4rem solid #217a30;
+    border-left: .4rem solid #217a30;
 }
 
 .heading::before{
@@ -241,9 +241,9 @@ body{
     outline: none;
     border: none;
     border-radius: 5rem;
-    background: #002e5f;
+    background: #217a30;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #217a30;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -282,7 +282,7 @@ body{
 }
 
 .footer .footer-top {
-    background: #002e5f;
+    background: #217a30;
     padding: 60px 0 30px 0;
 }
 
@@ -406,7 +406,7 @@ body{
 .back-to-top {
     position: fixed;
     display: none;
-    background-color: #002e5f;
+    background-color: #217a30;
     color: #ffffff;
     width: 45px;
     height: 45px;
